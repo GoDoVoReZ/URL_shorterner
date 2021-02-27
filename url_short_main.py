@@ -23,9 +23,11 @@ def main():
     def show_urls():
         print(f'Default URL: {url} \n')
         print(f'Shorted URL: {short_url()}')
-
-    show_urls()
-    insert_urls(url, short_url())
+    try:
+        show_urls()
+        insert_urls(url, short_url())
+    except:
+        print('Error')
     
             
 
