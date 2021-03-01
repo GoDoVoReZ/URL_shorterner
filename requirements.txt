@@ -1,4 +1,4 @@
 python==3.8.x
-pyshorteners
-tqdm
-colored
+pyshorteners==1.0.1
+tqdm==4.58.0
+colored==1.4.2
