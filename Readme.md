@@ -1,6 +1,6 @@
 # URL SHortener
 
-![](env/demo.png)
+![](demo.png)
 
 ## About project
 
