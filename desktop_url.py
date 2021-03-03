@@ -49,19 +49,16 @@ class App(tk.Tk):
             bg='black',
             activebackground='orange',
             activeforeground='black',
-            padx='10',
+            padx='20',
             pady='5',
             font='Helvetica 16',
             command=show_sh_url)
 
 
 
-
-
-
         self.label.pack()
         self.entry.pack()
-        self.btn.pack()
+        self.btn.pack(padx=20, pady=10)
 
 
 
