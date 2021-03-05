@@ -19,11 +19,3 @@ def insert_urls(url: str, shorted_url: str):
     cursor.execute("""INSERT INTO urls VALUES (?,?)""", data)
     conn.commit()
 
-def clean_db_table():
-
-    conn = sqlite3.connect('main_url.db')
-    cursor = conn.cursor()
-
-    cursor.execute("""DELETE FROM urls""")
-
-    conn.commit()
